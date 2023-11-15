@@ -1,0 +1,68 @@
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form10.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form2.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form3.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form4.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form5.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form6.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form7.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form8.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form9.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\MySqlConnector.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Buffers.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Memory.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\MySqlConnector.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Buffers.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Memory.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\alumno\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csproj.CopyComplete
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\MySqlConnector.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Buffers.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Memory.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\MySqlConnector.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Buffers.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Memory.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form10.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form2.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form3.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form4.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form5.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form6.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form7.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form8.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form9.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csproj.GenerateResource.cache
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csproj.CoreCompileInputs.cache
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csproj.CopyComplete
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\EnvioTracX.exe.config
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\EnvioTracX.exe
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\bin\Debug\EnvioTracX.pdb
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto 1.1.csprojAssemblyReference.cache
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\EnvioTracx.Properties.Resources.resources
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\EnvioTracX.exe
+C:\Users\Rusian\Desktop\Proyecto\Proyecto\obj\Debug\EnvioTracX.pdb

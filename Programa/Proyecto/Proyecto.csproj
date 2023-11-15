@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{973FB710-6706-4846-AA73-C6C4F59B00C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto</RootNamespace>
+    <AssemblyName>Proyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Logica\Camion.cs" />
+    <Compile Include="Grafica\inicioDeSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\inicioDeSesion.Designer.cs">
+      <DependentUpon>inicioDeSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\cerrarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\cerrarSesion.Designer.cs">
+      <DependentUpon>cerrarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\ingresoUsuarioContrasenia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\ingresoUsuarioContrasenia.Designer.cs">
+      <DependentUpon>ingresoUsuarioContrasenia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\altasUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\altasUsuario.Designer.cs">
+      <DependentUpon>altasUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\menuOficinistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\menuOficinistas.Designer.cs">
+      <DependentUpon>menuOficinistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\modUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\modUsuarios.Designer.cs">
+      <DependentUpon>modUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\menuCamionerosPersAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\menuCamionerosPersAlmacen.Designer.cs">
+      <DependentUpon>menuCamionerosPersAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\menuClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\menuClientes.Designer.cs">
+      <DependentUpon>menuClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\cedulaBaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\cedulaBaja.Designer.cs">
+      <DependentUpon>cedulaBaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafica\cedulaModificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafica\cedulaModificacion.Designer.cs">
+      <DependentUpon>cedulaModificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logica\Almacen.cs" />
+    <Compile Include="Logica\Camionero.cs" />
+    <Compile Include="Logica\Cliente.cs" />
+    <Compile Include="Logica\Oficinista.cs" />
+    <Compile Include="Logica\Paquete.cs" />
+    <Compile Include="Logica\Pedido.cs" />
+    <Compile Include="Logica\Personal_almacen.cs" />
+    <Compile Include="Logica\Usuario.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Grafica\inicioDeSesion.resx">
+      <DependentUpon>inicioDeSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\cerrarSesion.resx">
+      <DependentUpon>cerrarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\ingresoUsuarioContrasenia.resx">
+      <DependentUpon>ingresoUsuarioContrasenia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\altasUsuario.resx">
+      <DependentUpon>altasUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\menuOficinistas.resx">
+      <DependentUpon>menuOficinistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\modUsuarios.resx">
+      <DependentUpon>modUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\menuCamionerosPersAlmacen.resx">
+      <DependentUpon>menuCamionerosPersAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\menuClientes.resx">
+      <DependentUpon>menuClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\cedulaBaja.resx">
+      <DependentUpon>cedulaBaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafica\cedulaModificacion.resx">
+      <DependentUpon>cedulaModificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.00.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.00 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.00 %281%29 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.04 %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.29.38.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.04 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.04.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.00 %281%29 %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.04 %282%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.29.38 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.00 %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-01 at 18.27.04 %284%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_616721584_Preview.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar_1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar_1 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gerente %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burbuja-de-dialogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burbuja-de-dialogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burbuja-de-dialogo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conductor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conductor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conductor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajador1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conductor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
